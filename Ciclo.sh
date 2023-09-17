@@ -1,3 +1,5 @@
+!/bin/bash
+
 # Ciclo
 
 # Ciclo Case - Esac
@@ -17,7 +19,7 @@
 
   read opcion
   case $opcion in
-      s|S) 
+      s|S)
          echo "pulso la opción SI"
       ;;
       n|N)

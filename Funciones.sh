@@ -1,3 +1,5 @@
+!/bin/bash
+
 # Funciones
 
  function nombre_de_la_funcion {
