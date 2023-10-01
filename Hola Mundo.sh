@@ -1,5 +1,5 @@
 !/bin/bash
 
-# Script de Hola Mundo
+# Script de Bash de Hola Mundo
 
 echo "Hola Mundo"

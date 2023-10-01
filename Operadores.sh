@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Operadores
+# Operadores en Bash
 
 # Asignacion
 

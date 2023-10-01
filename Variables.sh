@@ -1,6 +1,6 @@
-# Variables
-
 !/bin/bash
+
+# Variables en Bash
 
 # Asignando variables
 

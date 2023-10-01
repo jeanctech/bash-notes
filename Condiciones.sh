@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Condiciones
+# Condiciones en Bash
 
 #Test If
 

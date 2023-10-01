@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Funciones
+# Funciones en Bash
 
  function nombre_de_la_funcion {
       # comandos o instrucciones bash.

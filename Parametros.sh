@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Parametros
+# Parametros en Bash
 
 # Usar Parametros
 RNM=`expr $RANDOM % 11`

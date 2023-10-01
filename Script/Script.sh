@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Script
+# Script en Bash
 
 # Se guarda en la variable el valor generado por $RANDOM,
 # el % 5 asegura obtener un numero menor a 5 .

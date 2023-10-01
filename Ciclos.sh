@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Ciclos
+# Ciclos en Bash
 
 # Ciclo Case - Esac
 
