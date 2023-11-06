@@ -1,4 +1,4 @@
 !/bin/bash
 
-#! Hello World in Bash
+#! Hello World - Bash
 echo "Hello World"

@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Arguments for Scripts in Bash
+#! Arguments for Scripts - Bash
 
 # Arguments are values or text strings that are passed to a Bash script when it is executed. These
 # arguments allow the script to receive specific information and make decisions or perform

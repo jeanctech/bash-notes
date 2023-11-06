@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Executing Commands in Bash
+#! Executing Commands - Bash
 
 # Running commands in a Bash script or on the command line is a critical part of using
 Bash #. You can run internal Bash commands or external commands (programs) directly from the

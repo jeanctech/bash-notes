@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Parameters in Bash
+#! Parameters - Bash
 
 # In Bash, parameters are values or arguments that are passed to a script or program when it is executed.
 # They can be used to customize the behavior of a script or program, making them more

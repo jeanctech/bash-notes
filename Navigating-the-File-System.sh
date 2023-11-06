@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Navigating the File System in Bash
+#! Navigating the File System - Bash
 
 # Navigating the file system is a critical skill when working on the line.
 # commands. Allows you to move between directories, list content and access files and directories

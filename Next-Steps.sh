@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Next Steps in Bash
+#! Next Steps - Bash
 
 # If you already have basic experience in Bash and want to advance your scripting skills and
 # systems administration in Bash, here are some steps you can follow:

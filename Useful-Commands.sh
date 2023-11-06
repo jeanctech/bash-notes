@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Useful Commands in Bash
+#! Useful Commands - Bash
 
 # Bash is a powerful command interpreter on Unix and Linux systems. Next, I present to you a
 # list of useful commands in Bash that will help you work more efficiently on the line

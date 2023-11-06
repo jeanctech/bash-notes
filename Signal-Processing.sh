@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Signal Processing in Bash
+#! Signal Processing - Bash
 
 # Signal processing in Bash refers to the ability of scripts to respond to signals sent by the operating
 # system or other processes. Signals are asynchronous events that can be used to control or manipulate the

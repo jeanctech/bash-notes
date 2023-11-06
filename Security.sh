@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Security in Bash
+#! Security - Bash
 
 # Security is a major concern in scripting and using Bash,
 # especially when it comes to automating tasks or manipulating sensitive data on Unix and Linux systems.

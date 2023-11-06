@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Control Structure in Bash
+#! Control Structure - Bash
 
 # In Bash, you can use control structures to make decisions, repeat tasks, and control flow
 # of execution of your scripts. The most common control structures in Bash are the following:

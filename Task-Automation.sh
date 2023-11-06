@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Task Automation in Bash
+#! Task Automation - Bash
 
 # Automating tasks in Bash is a common practice to simplify and streamline operations
 # repetitive on Unix/Linux systems. You can use Bash scripts to automate a variety of tasks,

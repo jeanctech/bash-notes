@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Remote Administration in Bash
+#! Remote Administration - Bash
 
 # Remote administration in Bash refers to the ability to manage systems or servers remotely.
 # remote using commands and scripts written in the Bash programming language. This is especially

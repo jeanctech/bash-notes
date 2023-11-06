@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Conditionals in Bash
+#! Conditionals - Bash
 
 # In Bash, you can use conditional structures to make decisions based on conditions
 # specific. The most common conditional structures are `if`, `elif` (short for "else if"), and

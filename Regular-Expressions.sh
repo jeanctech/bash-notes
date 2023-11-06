@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Regular Expressions in Bash
+#! Regular Expressions - Bash
 
 # Regular expressions are patterns used to search, filter, and manipulate text more
 #advanced. Bash allows you to use regular expressions to search and match strings

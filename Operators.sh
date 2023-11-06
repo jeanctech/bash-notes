@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Operators in Bash
+#! Operators - Bash
 
 # Bash, like other scripting and programming languages, uses operators to perform
 # various operations, from arithmetic operations to logical comparisons. Next, it

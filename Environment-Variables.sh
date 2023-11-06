@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Environment Variables in Bash
+#! Environment Variables - Bash
 
 # Environment variables in Bash are special variables that contain information that is available
 # for all processes on a Unix or Linux system. These variables are used to store

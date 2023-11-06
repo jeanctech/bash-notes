@@ -1,6 +1,6 @@
 !/bin/bash
 
-#! Debugging and Error Handling in Bash
+#! Debugging and Error Handling - Bash
 
 # The debugging process and error handling in Bash scripts are essential to ensure that
 # your scripts work correctly and are robust. Here are some techniques and practices for debugging
