@@ -18,16 +18,15 @@ case $fruit in
          echo "It's a grape";;
      *)
          echo "Fruit is not recognized";;
-that C
+# that C
 
-# In this example, the variable `$fruit` is compared with different cases, and a set of
-# corresponding commands when a match is found. Each case is delimited by `)` and `;;`
+    # In this example, the variable `$fruit` is compared with different cases, and a set of
+    # corresponding commands when a match is found. Each case is delimited by `)` and `;;`
 
-# (you can use `;;&` instead of `;;` if you want to continue to the next option instead of exiting the
-# `case`). The `*)` case is the default case that will be executed if none of the other cases match.
+    # (you can use `;;&` instead of `;;` if you want to continue to the next option instead of exiting the
+    # `case`). The `*)` case is the default case that will be executed if none of the other cases match.
 
-Here is another example showing how to use `case` to handle different input options in a
-script:
+#* Here is another example showing how to use `case` to handle different input options in a script:
 
 option=$1
 
@@ -47,10 +46,10 @@ case $option in
      *)
          echo "Use: $0 start|stop|restart"
          ;;
-that C
+# that C
 
-This script takes a command line argument (`$1`) and executes different actions based on that
-argument. If the argument does not match any of the options, a usage message is displayed.
+    # This script takes a command line argument (`$1`) and executes different actions based on that
+    # argument. If the argument does not match any of the options, a usage message is displayed.
 
 # The `case` structure in Bash is useful when you need to handle multiple options or conditions and
 # simplifies the code compared to a series of nested `if` statements. You can customize and

@@ -6,19 +6,19 @@
 # system or other processes. Signals are asynchronous events that can be used to control or manipulate the
 # behavior of a running script. Here are some common signals and how they can be handled in Bash scripts.
 
-: 1. **`Ctrl-C` (Sigint)**:
+#* 1. **`Ctrl-C` (Sigint)**:
 
-     - This is the signal sent when the user presses `Ctrl-C` to interrupt a running script.
-     - You can capture this signal using the `trap` command.
+     # - This is the signal sent when the user presses `Ctrl-C` to interrupt a running script.
+     # - You can capture this signal using the `trap` command.
 
-    # trap 'echo "Ctrl-C was pressed"; exit SIGINT
+    # trap 'echo "Ctrl-C was pressed"; exit Siginit
 
     # This will stop the script and display a message when `Ctrl-C` is pressed.
 
-: 2. **`Ctrl-Z` (Next)**:
+#* 2. **`Ctrl-Z` (Next)**:
 
-    - This is the signal sent when the user presses `Ctrl-Z` to suspend a running script.
-    - You can capture this signal and perform specific actions, such as pausing the script.
+    # - This is the signal sent when the user presses `Ctrl-Z` to suspend a running script.
+    # - You can capture this signal and perform specific actions, such as pausing the script.
 
     trap 'echo "Ctrl-Z was pressed"; pause_function' Next
 
@@ -27,11 +27,10 @@
         # Add code here to pause the script
     }
 
-3. **`Sighup`**:
+#* 3. **`Sighup`**:
 
-    - This signal is sent when the terminal from which the script was run is closed.
-    - You can capture this signal to perform cleanup tasks or save the script state before
-    let it close.
+    # - This signal is sent when the terminal from which the script was run is closed.
+    # - You can capture this signal to perform cleanup tasks or save the script state before let it close.
 
     trap 'cleanup_function' Sighup
 
@@ -40,10 +39,10 @@
         # Add cleanup code here
     }
 
-4. **`Sigterm`**:
+#* 4. **`Sigterm`**:
 
-    - This signal is sent when the `kill` command is used to kill a process.
-    - You can capture this signal to perform cleanup tasks before ending the script.
+    # - This signal is sent when the `kill` command is used to kill a process.
+    # - You can capture this signal to perform cleanup tasks before ending the script.
 
     trap 'cleanup_function' Sigterm
 
@@ -53,10 +52,10 @@
         exit
     }
 
-5. **`Sigusr` and `Sigusr2`**:
+#* 5. **`Sigusr` and `Sigusr2`**:
 
-    - These signals are user signals and can be used for any purpose in your scripts.
-    - You can capture these signals to perform custom actions.
+    # - These signals are user signals and can be used for any purpose in your scripts.
+    # - You can capture these signals to perform custom actions.
 
     trap 'user_signal_handler' Sigusr1 Sigusr2
 

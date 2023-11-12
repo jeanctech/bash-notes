@@ -7,13 +7,13 @@
 # flexible and reusable. Parameters in Bash can be divided into two main categories:
 # positional parameters and special parameters.
 
-Positional Parameters
+#* Positional Parameters
 
 # Positional parameters are arguments that are passed to the script in a specific order, and accessed
 # through special variables. The parameters are numbered from 1 onwards. For example, `$1` is
 # refers to the first parameter, `$2` to the second, and so on.
 
-Example of using positional parameters:
+#* Example of using positional parameters:
 
 echo "The first parameter is: $1"
 echo "The second parameter is: $2"
@@ -22,29 +22,29 @@ echo "The second parameter is: $2"
 
 ./my_script.sh argument1 argument2
 
-Special Parameters
+#* Special Parameters
 
 # Bash also provides a number of special parameters that are used to access information
 # additional or specific configuration:
 
-- **$0**: The name of the current script.
-- **$#**: The total number of parameters passed to the script.
-- **$@**: All parameters passed to the script as a list.
-- ***$***: All parameters passed to the script as a single string.
-- **$?**: The return value of the last command executed.
-- **$$**: The PID (Process Identifier) of the current script.
-- **$!**: The PID of the last background process.
+# - **$0**: The name of the current script.
+#* - **$#**: The total number of parameters passed to the script.
+# - **$@**: All parameters passed to the script as a list.
+# - ***$***: All parameters passed to the script as a single string.
+# - **$?**: The return value of the last command executed.
+# - **$$**: The Pid (Process Identifier) of the current script.
+# - **$!**: The Pid of the last background process.
 
-# Example of using special parameters:
+#* Example of using special parameters:
 
 echo "Script name: $0"
 echo "Total number of parameters: $#"
 echo "All parameters as list: $@"
 echo "All parameters as string: $*"
 echo "Return value of last command: $?"
-echo "PID of current script: $$"
+echo "Pid of current script: $$"
 
-Pass Parameters to a Script
+#* Pass Parameters to a Script
 
 # To pass parameters to a Bash script, simply supply the arguments after the script name.
 # script when executed:

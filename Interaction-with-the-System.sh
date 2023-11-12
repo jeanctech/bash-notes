@@ -5,108 +5,108 @@
 # In Bash, you can interact with the operating system and perform a variety of administrative and
 # automation. Here are some common ways to interact with the system in Bash:
 
-: 1. **List Files and Directories**:
+#* 1. **List Files and Directories**:
 
-    - `ls`: List files and directories in the current directory. You can use options like `-l` to
-    get a detailed list and `-a` to show hidden files.
+    # - `ls`: List files and directories in the current directory. You can use options like `-l` to
+    # get a detailed list and `-a` to show hidden files.
 
-    Example:
+    #* Example:
 
     ls -l
 
-: 2. **Browse the File System**:
+#* 2. **Browse the File System**:
 
-    - `cd`: Change the current directory.
+    # - `cd`: Change the current directory.
 
-    Example:
+    #* Example:
 
     cd /path/to/directory
 
-: 3. **Create and Delete Files and Directories**:
+#* 3. **Create and Delete Files and Directories**:
 
-    - `touch`: Create empty files.
-    - `mkdir`: Create directories.
-    - `rm`: Delete files or directories. Use with caution.
+    # - `touch`: Create empty files.
+    # - `mkdir`: Create directories.
+    # - `rm`: Delete files or directories. Use with caution.
 
-    Examples:
+    #* Examples:
 
     touch file.txt
     mkdir new_directory
     rm file.txt
 
-: 4. **Copy and Move Files and Directories**:
+#* 4. **Copy and Move Files and Directories**:
 
-    - `cp`: Copy files and directories.
-    - `mv`: Move or rename files and directories.
+    # - `cp`: Copy files and directories.
+    # - `mv`: Move or rename files and directories.
 
-    Examples:
+    #* Examples:
 
     cp file1 file2
     mv file1 new_name
 
-: 5. **Commands for Files and Text**:
+#* 5. **Commands for Files and Text**:
 
-    - `cat`: Shows the contents of a file.
-    - `more` or `less`: Shows the contents of paginated text files.
-    - `grep`: Searches for patterns in text files.
+    # - `cat`: Shows the contents of a file.
+    # - `more` or `less`: Shows the contents of paginated text files.
+    # - `grep`: Searches for patterns in text files.
 
-    Examples:
+    #* Examples:
 
     cat file.txt
     grep "pattern" file.txt
 
-: 6. **Commands for Process Management**:
+#* 6. **Commands for Process Management**:
 
-    - `ps`: Shows information about running processes.
-    - `top` or `htop`: Provides detailed information about system resource usage and
-    running processes.
-    - `kill`: Send signals to processes to stop or restart them.
+    # - `ps`: Shows information about running processes.
+    # - `top` or `htop`: Provides detailed information about system resource usage and
+    # running processes.
+    # - `kill`: Send signals to processes to stop or restart them.
 
-    Examples:
+    #* Examples:
 
     ps aux
     top
     kill Pid
 
-: 7. **Manage Users and Permissions**:
+#* 7. **Manage Users and Permissions**:
 
-    - `useradd` and `userdel`: Add and remove users.
-    - `passwd`: Change user passwords.
-    - `chmod` and `chown`: Change permissions and owners of files and directories.
+    # - `useradd` and `userdel`: Add and remove users.
+    # - `passwd`: Change user passwords.
+    # - `chmod` and `chown`: Change permissions and owners of files and directories.
 
-    Examples:
+    #* Examples:
 
     useradd new_user
     passwd existing_user
     chmod 644 file.txt
 
-: 8. **Networks and Connectivity**:
+#* 8. **Networks and Connectivity**:
 
-    - `ping`: Tests network connectivity with a host.
-    - `ifconfig` or `ip`: Display network information and configure network interfaces.
-    - `netstat`: Shows information about network connections and statistics.
+    # - `ping`: Tests network connectivity with a host.
+    # - `ifconfig` or `ip`: Display network information and configure network interfaces.
+    # - `netstat`: Shows information about network connections and statistics.
 
-    Examples:
+    #* Examples:
 
     ping google.com
     ifconfig
     netstat -an
 
-: 9. **Compressed Files**:
+#* 9. **Compressed Files**:
 
-    - `tar`: Create or extract compressed files.
-    - `gzip` or `bzip2`: Compress and decompress files.
+    # - `tar`: Create or extract compressed files.
+    # - `gzip` or `bzip2`: Compress and decompress files.
 
-    Examples:
+    #* Examples:
 
     tar -czvf file.tar.gz directory/
     gzip file.txt
 
-: 10. **Download Files from the Web**:
+#* 10. **Download Files from the Web**:
 
-     - `wget` or `curl`: Download files from the web.
+     # - `wget` or `curl`: Download files from the web.
 
-     Examples:
+    #*  Examples:
 
      wget https://example.com/archivo.zip
      curl -O https://example.com/archivo.zip

@@ -6,96 +6,96 @@
 # in the Bash programming language. Below are the key elements of the syntax in
 #Bash:
 
-1. **Commands and Arguments**:
+#* 1. **Commands and Arguments**:
 
-    - Commands in Bash are keywords or executable programs, followed by arguments and options.
-    - Example of command with arguments and options:
+    # - Commands in Bash are keywords or executable programs, followed by arguments and options.
+
+    #* - Example of command with arguments and options:
 
       command -option argument1 argument2
 
-2. **Comments**:
+#* 2. **Comments**:
 
-    - Comments begin with the `#` symbol and are used to add notes and clarifications to the code.
+    # - Comments begin with the `#` symbol and are used to add notes and clarifications to the code.
 
-    - Comment example:
+    #* - Comment example:
 
-      # This is a comment
+    # This is a comment
 
-3. **Variables**:
+#* 3. **Variables**:
 
-    - Variables are defined without spaces around the equal sign (`=`) and are accessed preceded by the
-    dollar sign (`$`).
+    # - Variables are defined without spaces around the equal sign (`=`) and are accessed preceded by the
+    # dollar sign (`$`).
 
-    - Example of definition and use of a variable:
+    #* - Example of definition and use of a variable:
 
       my_variable="Hello, world"
       echo $my_variable
 
-4. **Character Strings**:
+#* 4. **Character Strings**:
 
-    - # Strings must be enclosed in single quotes (`'`) or double quotes (`"`).
-    # single quotes preserve the text as is, while double quotes allow the
-    # expansion of variables and special characters.
+      # - Strings must be enclosed in single quotes (`'`) or double quotes (`"`). single quotes preserve
+      # the text as is, while double quotes allow the expansion of variables and special characters.
 
-    - Example of character strings:
+      #* - Example of character strings:
 
       single_string='Text in single quotes'
       double_string="Hello, $user"
 
-5. **Variable Expansion**:
+#* 5. **Variable Expansion**:
 
-    - To expand the value of a variable within a string, use `$variable` or `${variable}`.
+      # - To expand the value of a variable within a string, use `$variable` or `${variable}`.
 
-    - Example of variable expansion:
+      #* - Example of variable expansion:
 
       user="John"
       echo "Hello, $user"
 
-6. **Control Structures**:
+#* 6. **Control Structures**:
 
-    - Bash supports control structures such as `if`, `for`, `while`, and `case`. These structures have
-    a specific syntax to define conditions and actions.
+      # - Bash supports control structures such as `if`, `for`, `while`, and `case`. These structures have
+      # a specific syntax to define conditions and actions.
 
-    - Example of `if` structure:
+      #* - Example of `if` structure:
 
       if [ condition ]; then
           # Actions if condition is true
       fi
 
-7. **Inline Commands**:
+#* 7. **Inline Commands**:
 
-    - You can chain multiple commands on one line separating them with `;` or `&&` (and logical) so that
-    the second command is executed only if the first is successful.
+    # - You can chain multiple commands on one line separating them with `;` or `&&` (and logical) so that
+    # the second command is executed only if the first is successful.
 
-    - Example of online commands:
+    #* - Example of online commands:
 
       command1 ; command2
 
-8. **Input and Output Redirection**:
+#* 8. **Input and Output Redirection**:
 
-    - You can redirect standard input and output using `>`, `>>`, `<`, `|`, and other operators.
-    redirection.
+    # - You can redirect standard input and output using `>`, `>>`, `<`, `|`, and other operators.
+    # redirection.
 
-    - Example of output redirection to a file:
+   #*  - Example of output redirection to a file:
 
       command > output_file.txt
 
-9. **Function Structure**:
+#* 9. **Function Structure**:
 
-    - Functions are defined with the `function` keyword or simply by their name and a pair
-    of parentheses `{}`.
+    # - Functions are defined with the `function` keyword or simply by their name and a pair
+    # of parentheses `{}`.
 
-    - Example of function definition:
+    #* - Example of function definition:
 
       function my_function {
           # Function code
       }
 
-10. **Regular Expressions**:
+#* 10. **Regular Expressions**:
 
-     - You can use regular expressions in commands like `grep` and `sed` to search and manipulate text.
+     # - You can use regular expressions in commands like `grep` and `sed` to search and manipulate text.
 
-     - Example of regular expression use:
+     #* - Example of regular expression use:
 
        grep 'pattern' file.txt
 

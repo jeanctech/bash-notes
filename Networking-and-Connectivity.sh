@@ -7,79 +7,78 @@
 # resolving domain names, diagnosing network problems, and more. Here are some
 # common commands and techniques related to networking and connectivity in Bash:
 
-: 1. **Network Interface Configuration**:
+#* 1. **Network Interface Configuration**:
 
-    - Use the `ifconfig` or `ip` command to configure and manage network interfaces. You can see
-    information about current network interfaces and configure IP addresses, netmasks, and more.
+    # - Use the `ifconfig` or `ip` command to configure and manage network interfaces. You can see
+    # information about current network interfaces and configure IP addresses, netmasks, and more.
 
     ifconfig
     ip address
 
-: 2. **Network Routing**:
+#* 2. **Network Routing**:
 
-    - You can configure network routes using the `route` or `ip route` command. This is useful for directing
-    network traffic through specific routes.
+    #* - You can configure network routes using the `route` or `ip route` command. This is useful for directing
+    #* network traffic through specific routes.
 
     route -n
     ip route show
 
-: 3. **Domain Name Resolution**:
+#* 3. **Domain Name Resolution**:
 
-    - Use the `nslookup` or `dig` command to resolve domain names to IP addresses or vice versa.
-    These commands are useful for diagnosing name resolution problems.
+    # - Use the `nslookup` or `dig` command to resolve domain names to IP addresses or vice versa.
+    # These commands are useful for diagnosing name resolution problems.
 
     nslookup example.com
     dig example.com
 
-: 4. **Ping and Connectivity Tests**:
+#* 4. **Ping and Connectivity Tests**:
 
-    - Use the `ping` command to verify connectivity to a host or IP address. You can too
-    use `traceroute` to trace the path of a packet to a destination.
+    # - Use the `ping` command to verify connectivity to a host or IP address. You can too
+    # use `traceroute` to trace the path of a packet to a destination.
 
     ping google.com
     traceroute google.com
 
-: 5. **Network Diagnostic Tools**:
+#* 5. **Network Diagnostic Tools**:
 
-    - Commands like `netstat` and `ss` allow you to view network statistics, active connections and ports on
-    use on your system.
+    # - Commands like `netstat` and `ss` allow you to view network statistics, active connections and ports on
+    # use on your system.
 
     netstat -tuln
     ss -tuln
 
-: 6. **Firewall Configuration**:
+#* 6. **Firewall Configuration**:
 
-    - You can configure a firewall on Linux systems using tools like `iptables` or `ufw`. This
-    allows you to control incoming and outgoing network traffic.
+    # - You can configure a firewall on Linux systems using tools like `iptables` or `ufw`. This
+    # allows you to control incoming and outgoing network traffic.
 
     iptables -L
     ufw enable
 
-: 7. **Dhcp and Automatic IP Configuration**:
+#* 7. **Dhcp and Automatic Ip Configuration**:
 
-    - You can configure network interfaces to obtain IP addresses automatically using the
-    Dhcp protocol (Dynamic Host Configuration Protocol).
+    # - You can configure network interfaces to obtain Ip addresses automatically using the Dhcp protocol
+    # (Dynamic Host Configuration Protocol).
 
     dhclient eth0
 
-: 8. **Virtual Interface Management (Vpn)**:
+#* 8. **Virtual Interface Management (Vpn)**:
 
-    - If you are working with VPNs, you can use commands like `openvpn` or `vpnc` to manage
-    VPN connections.
+    # - If you are working with VPNs, you can use commands like `openvpn` or `vpnc` to manage
+    # Vpn connections.
 
     openvpn config.ovpn
     vpnc /etc/vpnc/vpnc.conf
 
-: 9. **Capture and Analysis of Network Traffic**:
+#* 9. **Capture and Analysis of Network Traffic**:
 
-    - Use tools like `tcpdump` or `Wireshark` to capture and analyze network traffic on your
-    system.
+    # - Use tools like `tcpdump` or `Wireshark` to capture and analyze network traffic on your system.
 
     tcpdump -i eth0
 
-: 10. **Dns Administration**:
+#* 10. **Dns Administration**:
 
-     - Use commands like `nsupdate` to manage DNS records programmatically.
+     # - Use commands like `nsupdate` to manage DNS records programmatically.
 
      nsupdate
 
