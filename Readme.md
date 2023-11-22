@@ -1,10 +1,12 @@
 # Bash - Documentation
 
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
+![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+[![ChatGpt](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
 
 ## What is Bash?
 
-Bash, short for "Bourne Again Shell", is a command line interface (Cli) and scripting language. script commonly used on Unix-like operating systems, including Linux and macOs. It is a powerful tool to interact with your computer's file system, run  commands and automate tasks. Here is a brief introduction to Bash.
+Bash, short for "Bourne Again Shell", is a command line interface - Cli and scripting language. script commonly used on Unix-like operating systems, including Linux and macOs. It is a powerful tool to interact with your computer's file system, run  commands and automate tasks. Here is a brief introduction to Bash.
 Command Prompt: When Open a terminal on your computer, you are presented with a command prompt. This is where you can write and run Bash commands.
 
 ## Index
@@ -44,12 +46,17 @@ Command Prompt: When Open a terminal on your computer, you are presented with a 
 
 ## Introduction
 
-Bash is a command interpreter, which means it is a program that allows users Interact with the computer by typing commands. Bash is the default system shell Gnu (Linux) and Apple's Os X operating system, and is compatible with Posix 1003.2. Bash is also a language scriptable, meaning that commands can be grouped into a script that runs a shell program. Bash scripts are a great way to automate different types of tasks in a system and support variables, conditional statements and loops as well than programming languages. Some of the applications of Bash Scripts include manipulating files, the execution of routine tasks such as backup operations and automation. Bash is used widely in the Gnu/Linux operating system and is used as the default login shell for most Linux distributions.
+Bash is a command interpreter, which means it is a program that allows users Interact with the computer
+by typing commands. Bash is the default system shell Gnu (Linux) and Apple's Os X operating system, and
+is compatible with Posix 1003.2. Bash is also a language scriptable, meaning that commands can be grouped into a script that runs a shell program. Bash scripts are a great way to automate different types of tasks in a system and support variables, conditional statements and loops as well than programming languages. Some of the applications of Bash Scripts include manipulating files, the execution of routine tasks such as backup operations and automation. Bash is used widely in the Gnu/Linux operating system and is used as the default login shell for most Linux distributions.
 
 ## Important information and frequently asked questions
 
-Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial objective of the project. And then I don't rule out adding new lessons in the future, but I think which for the moment can serve as a basis for anyone who wants to start learning this language.
-As soon as the course continues I will update the repository and notify the networks.
+Currently the course is in process. The basic, intermediate and backend blocks have been started, and
+that was the initial goal of the project. And then I don't rule out adding new lessons in the future,
+but I think that for now it can serve as a basis for anyone who wants to start learning this language.
+
+* As soon as the course continues I will update the repository and notify the networks.
 Thank you very much for all the support shown!
 
 ## Links of interest
@@ -64,7 +71,7 @@ Thank you very much for all the support shown!
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
 
-* [Linux](https://www.linux.org/) -Linux
+* [Linux](https://www.linux.org/) - Linux
 
 * [Bashfuscator](https://github.com/Bashfuscator/Bashfuscator) - Bashfuscator
 
