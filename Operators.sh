@@ -1,12 +1,12 @@
-!/bin/bash
+#!/bin/bash
 
-#! Operators - Bash
+#? Operators - Bash
 
 # Bash, like other scripting and programming languages, uses operators to perform
 # various operations, from arithmetic operations to logical comparisons. Next, it
 # introduce some of the most common operators in Bash:
 
-#! Arithmetic Operators
+#? Arithmetic Operators
 
 # These operators are used to perform mathematical operations.
 
@@ -40,7 +40,7 @@
 
    result=$((15% 4))
 
-#! Comparison Operators
+#? Comparison Operators
 
 # These operators are used to compare values.
 
@@ -92,7 +92,7 @@
        # Do something if x is less than or equal to y
    fi
 
-#! Logical operators
+#? Logical operators
 
 # These operators are used to combine logical expressions.
 

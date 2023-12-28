@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Loops - Bash
+#? Loops - Bash
 
 # In Bash, you can use loops to execute a set of commands repeatedly. There are several types of
 # available loops, the most common being `for` and `while` loops. Next I'll show you how

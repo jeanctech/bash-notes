@@ -1,12 +1,12 @@
-!/bin/bash
+#!/bin/bash
 
-#! Debugging and Error Handling - Bash
+#? Debugging and Error Handling - Bash
 
 # The debugging process and error handling in Bash scripts are essential to ensure that
 # your scripts work correctly and are robust. Here are some techniques and practices for debugging
 # and handle errors in Bash.
 
-#! **Debugging:**
+#!? **Debugging:**
 
 #* 1. **Debug messages**:
 
@@ -38,7 +38,7 @@
     # Use Bash debugging tools, such as `bashdb` or `dbp`, to debug scripts in a more advanced way. These
     # tools allow for more precise tracking and controlled execution of your script.
 
-#! **Error Handling:**
+#? **Error Handling:**
 
 #* 1. **Exit Code Verification**:
 

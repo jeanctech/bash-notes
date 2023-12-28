@@ -1,13 +1,13 @@
-!/bin/bash
+#!/bin/bash
 
-#! Environment Variables - Bash
+#? Environment Variables - Bash
 
 # Environment variables in Bash are special variables that contain information that is available
 # for all processes on a Unix or Linux system. These variables are used to store
 # information relevant to the system and applications, and are often used to configure the
 # behavior of the program execution environment.
 
-#! Some of the most common environment variables in Bash include:
+#? Some of the most common environment variables in Bash include:
 
 #* 1. **Path**:
 

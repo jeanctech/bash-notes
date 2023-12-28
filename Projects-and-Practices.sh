@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Projects and Practices - Bash
+#? Projects and Practices - Bash
 
 # Doing projects and practices in Bash is a great way to improve your skills in using
 # the command line and scripting on Unix and Linux systems. Here are some project ideas and

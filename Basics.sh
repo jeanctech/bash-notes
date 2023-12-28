@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Basics - Bash
+#? Basics - Bash
 
 # Bash, short for "Bourne-Again Shell", is a command interpreter and scripting language that is
 # commonly used on Unix and Linux systems. Here are some basics about Bash.

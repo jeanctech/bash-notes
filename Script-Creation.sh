@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Script Creation - Bash
+#? Script Creation - Bash
 
 # Creating a Bash script involves writing a Bash script to a file that can be executed by the Bash
 # interpreter. Here are some basic steps to create a script in Bash.

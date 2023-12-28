@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Introduction - Bash
+#? Introduction - Bash
 
 # Bash, short for "Bourne-Again Shell", is a command interpreter and scripting language
 # widely used in Unix and Linux operating systems. It is a fundamental part of most
@@ -8,7 +8,7 @@
 # commands that allow users to interact with the operating system and perform various tasks,
 # from executing simple commands to automating complex tasks.
 
-#! Here's an introduction to key Bash concepts:
+#? Here's an introduction to key Bash concepts:
 
 #* 1. **Command Line Interface (Cli)**:
 

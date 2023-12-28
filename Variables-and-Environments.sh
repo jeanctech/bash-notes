@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Variables and Environments - Bash
+#? Variables and Environments - Bash
 
 # In Bash, variables are containers that store data, values, or strings of characters. Are
 # variables can be used to store information, configure program behavior, and

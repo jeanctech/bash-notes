@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Syntax - Bash
+#? Syntax - Bash
 
 # Syntax in Bash refers to the rules and structures you must follow when writing scripts and commands
 # in the Bash programming language. Below are the key elements of the syntax in

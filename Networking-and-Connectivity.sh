@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Networking and Connectivity - Bash
+#? Networking and Connectivity - Bash
 
 # In Bash, you can use a variety of tools and commands to manage networks and connectivity
 # on Unix and Linux systems. This is useful for tasks such as configuring network interfaces,

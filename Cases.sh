@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Cases - Bash
+#? Cases - Bash
 
 # In Bash, you can use the `case` structure to perform a series of comparisons and execute commands
 # based on the value of a variable or expression. A `case` is similar to a series of `if-elif-else`,

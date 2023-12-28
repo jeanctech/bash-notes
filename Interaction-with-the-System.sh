@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Interaction with the System - Bash
+#? Interaction with the System - Bash
 
 # In Bash, you can interact with the operating system and perform a variety of administrative and
 # automation. Here are some common ways to interact with the system in Bash:

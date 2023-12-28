@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Introduction - Command Line
+#? Introduction - Command Line
 
 # The command line, also known as the command line interface (Cli), is a way to
 # interact with a computer or operating system through text and commands instead of an interface

@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Using Pipes - Bash
+#? Using Pipes - Bash
 
 # Pipes (|) are a powerful feature in Bash and other Unix systems that allow you to redirect the
 # output of a command as input to another command. This allows the creation of sequential data flows

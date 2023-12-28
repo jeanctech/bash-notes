@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#! Functions - Bash
+#? Functions - Bash
 
 # In Bash, you can define and use functions to organize and reuse code. The functions
 # allow you to encapsulate a set of commands and execute them when necessary. Here's how to define
