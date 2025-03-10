@@ -81,4 +81,4 @@ Thank you very much for all the support shown!
 
 #### You can supportadd my "☆Star" work to the repository or nominate me for a "GitHub Star". Thank you!
 
-[![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
+[![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/).
